@@ -1,0 +1,23 @@
+{
+  "doc": "Sample schema to help you get started.",
+  "fields": [
+    {
+      "doc": "person transactionid",
+      "name": "transactionid",
+      "type": "int"
+    },
+    {
+      "doc": "name of the person",
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "doc": "amount that has been sent",
+      "name": "amount",
+      "type": "int"
+    }
+  ],
+  "name": "transactions",
+  "namespace": "com.example.bank",
+  "type": "record"
+}
