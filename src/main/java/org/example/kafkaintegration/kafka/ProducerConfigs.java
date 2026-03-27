@@ -21,7 +21,7 @@ public class ProducerConfigs {
                             "username=\"producer\" " +
                             "password=\"producer-secret\";"
             );
-            configs.put("ssl.truststore.location","C:\\Users\\KF979BQ\\OneDrive - EY\\Documents\\kafka.client.truststore.jks");
+            configs.put("ssl.truststore.location","");
             configs.put("ssl.truststore.password","client");
             configs.put("schema.registry.url", "http://schema.registry.com:8081");
             configs.put("basic.auth.credentials.source", "USER_INFO");
